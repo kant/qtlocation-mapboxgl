@@ -279,7 +279,7 @@ MGL_EXPORT IB_DESIGNABLE
  made available so that it can be assigned to custom attribution button
  implementations.
  */
-- (IBAction)showAttribution;
+- (IBAction)showAttribution:(id)sender;
 
 // Support for style classes has been removed. This property always returns an empty array.
 @property (nonatomic) NS_ARRAY_OF(NSString *) *styleClasses __attribute__((deprecated("This property is non-functional.")));
