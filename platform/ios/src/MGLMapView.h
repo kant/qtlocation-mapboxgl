@@ -276,8 +276,8 @@ MGL_EXPORT IB_DESIGNABLE
  Show the attribution and telemetry action sheet.
 
  This method is called when the user taps on `attributionButton`. This method is
- made available so that it can be assigned to custom attribution button
- implementations.
+ made available so that it can be added as an action of custom attribution
+ button implementations.
  */
 - (IBAction)showAttribution:(id)sender;
 
